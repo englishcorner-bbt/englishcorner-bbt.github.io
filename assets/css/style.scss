@@ -39,9 +39,9 @@ a,
 }
 
 .banner-bg {
-  background-image: url('/assets/image/banner_sm.png');
+  background-color: #118f83;
   background-size: cover;
-  background-position: top center;
+  background-position: bottom center;
 }
 
 .small-hr {
@@ -62,21 +62,34 @@ a,
   box-shadow: 0px 6px 0px #d6a800;
 }
 
-.yellow-button {
+.mt-180 {
   margin-top: 180px;
 }
 
-@media (min-width: 720px) {
+.banner-sm-fg {
+  background-image: url('/assets/image/banner_sm_fg.png');
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .banner-sm-fg {
+    background: none;
+  }
   .banner-bg {
     background-image: url('/assets/image/banner_md.png');
+    background-position: top center;
   }
   .yellow-button {
     width: fit-content;
     margin-top: 20px;
   }
+  .banner-description {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 992px) {
   .rounded-lg-4 {
     border-radius: 1rem !important; /* 1.5rem = 24px (rounded-4) */
   }
