@@ -1,0 +1,44 @@
+// Brand Colors
+$green-text: #01795b;
+$green-bg: #02ac81;
+
+$orange: #ff8000;
+
+$white: #ffffff;
+
+.green {
+  color: $green-text;
+}
+
+.orange {
+  color: $orange;
+}
+
+.red {
+  color: #fb4f00;
+}
+
+.yellow {
+  color: #ffdc5e;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.black {
+  color: #0b0b0b;
+}
+
+.facebook-color {
+  color: #376df9;
+}
+
+.line-color {
+  color: #389c28;
+}
+
+.bg-green {
+  background-color: $green-bg;
+  color: $white;
+}
