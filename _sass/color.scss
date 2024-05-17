@@ -3,7 +3,8 @@ $green-text: #01795b;
 $green-bg: #02ac81;
 
 $orange: #ff8000;
-
+$yellow: #ffdc5e;
+$black: #0b0b0b;
 $white: #ffffff;
 
 .green {
@@ -19,7 +20,7 @@ $white: #ffffff;
 }
 
 .yellow {
-  color: #ffdc5e;
+  color: $yellow;
 }
 
 .white {
@@ -27,7 +28,7 @@ $white: #ffffff;
 }
 
 .black {
-  color: #0b0b0b;
+  color: $black;
 }
 
 .facebook-color {
@@ -36,6 +37,11 @@ $white: #ffffff;
 
 .line-color {
   color: #389c28;
+}
+
+.bg-yellow {
+  background-color: $yellow;
+  color: $black;
 }
 
 .bg-green {
