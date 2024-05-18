@@ -1,0 +1,35 @@
+<div class="container max-width mt-3 mt-lg-5 p-2 p-md-2">
+  <h1 class="col-12 text-center red">หลักสูตรของเรา</h1>
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-8 text-center mt-2 mb-4 mb-lg-5">
+      เราช่วยให้ลูกน้อยสนุกกับการเรียนรู้ด้วยหลักสูตรที่เข้าใจพัฒนาการเด็ก
+      ให้น้องได้เรียนรู้ผ่านกิจกรรมสนุกๆ
+      <span class="red">ทำให้ซึมซับความรู้ได้ง่าย</span> จดจำได้นาน
+      ช่วยให้เรียนอย่างมีความสุขในทุกบทเรียน
+    </div>
+  </div>
+  <div class="row px-2">
+    {% for item in site.data.course %}
+    <div class="col-6 col-lg-3 mb-4">
+      <div
+        class="card-course d-flex flex-column rounded-3 strong-shadow-red px-0"
+      >
+        <div class="d-flex flex-column align-items-center p-2">
+          <img src="/assets/image/logo/{{ item.logo_course }}" height="50px" />
+        </div>
+        <div
+          class="image"
+          style="background-image: url('/assets/image/course/{{ item.environment}}');"
+        >
+          &nbsp;
+        </div>
+        <div
+          class="description py-3 px-1 px-md-5 px-lg-2 bg-red rounded-bottom-3 text-center flex-fill align-content-center"
+        >
+          {{ item.description }}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

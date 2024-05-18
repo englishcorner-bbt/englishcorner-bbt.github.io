@@ -1,0 +1,27 @@
+.card-course {
+  background-color: #eeeeee;
+  .description {
+    min-height: 104px;
+  }
+  .image {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-course {
+    .description {
+      min-height: 80px;
+    }
+  }
+}
+
+@media (min-width: 922px) {
+  .card-course {
+    .description {
+      min-height: 104px;
+    }
+  }
+}

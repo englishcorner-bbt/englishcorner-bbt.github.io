@@ -4,46 +4,180 @@ title: 'Home'
 description: 'English corner website'
 ---
 
-{% include banner.html %}
+{% include banner.html %} {% include course.html %}
+
 <div class="container max-width mt-3 mt-lg-5 p-2 p-md-2">
-  <!-- <div class="flex-column max-width mt-lg-5 p-2 p-md-2 align-items-center"> -->
-  <h1 class="col-12 text-center red">หลักสูตรของเรา</h1>
+  <h1 class="col-12 text-center red">บรรยากาศในโรงเรียนของเรา</h1>
   <div class="row justify-content-center">
-    <div class="col-12 col-md-8 text-center mt-2 mb-4">
-      เราช่วยให้ลูกน้อยสนุกกับการเรียนรู้ด้วยหลักสูตรที่เข้าใจพัฒนาการเด็ก
-      ให้น้องได้เรียนรู้ผ่านกิจกรรมสนุกๆ ทำให้ซึมซับความรู้ได้ง่าย จดจำได้นาน
-      ช่วยให้เรียนอย่างมีความสุขในทุกบทเรียน
+    <div class="col-12 col-md-8 text-center mt-2 mb-4 mb-lg-5">
+      ความภูมิใจของเรา คือตอนที่เราถามน้องว่า "อยากมาเรียนอีกมั๊ย"
+      แล้วน้องตอบว่า "มาพรุ่งนี้ได้เลยหรือเปล่า" 🥰
     </div>
   </div>
-  <!-- <div class="d-flex flex-row flex-wrap gap-3"> -->
-  <div class="row">
-    {% for item in site.data.course %}
-    <div class="col-6 mb-4">
-      <div
-        class="card-course d-flex flex-column rounded-3 strong-shadow-red px-0"
-      >
-        <div class="d-flex flex-column align-items-center p-2">
-          <img src="/assets/image/logo/{{ item.logo_course }}" height="50px" />
-        </div>
-        <div
-          style="
-          background-image: url('/assets/image/course/{{ item.environment}}');
-          height: 180px;
-          background-size: cover;
-        "
+  <div
+    class="row"
+    data-masonry='{"percentPosition": true }'
+    style="position: relative; height: 690px"
+  >
+    <div
+      class="col-sm-6 col-lg-4 mb-4"
+      style="position: absolute; left: 0%; top: 0px"
+    >
+      <div class="card">
+        <svg
+          class="bd-placeholder-img card-img-top"
+          width="100%"
+          height="200"
+          xmlns="http://www.w3.org/2000/svg"
+          role="img"
+          aria-label="Placeholder: Image cap"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
         >
-          &nbsp;
-        </div>
-        <div
-          class="description py-3 px-1 px-md-5 px-lg-2 bg-red rounded-bottom-3 text-center flex-fill"
-        >
-          {{ item.description }}
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#868e96"></rect>
+          <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+        </svg>
+
+        <div class="card-body">
+          <h5 class="card-title">Card title that wraps to a new line</h5>
+          <p class="card-text">
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </p>
         </div>
       </div>
     </div>
-    {% endfor %}
-  </div>
-  <!-- </div> -->
-</div>
+    <div
+      class="col-sm-6 col-lg-4 mb-4"
+      style="position: absolute; left: 33.3333%; top: 0px"
+    >
+      <div class="card p-3">
+        <figure class="p-3 mb-0">
+          <blockquote class="blockquote">
+            <p>A well-known quote, contained in a blockquote element.</p>
+          </blockquote>
+          <figcaption class="blockquote-footer mb-0 text-muted">
+            Someone famous in <cite title="Source Title">Source Title</cite>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+    <div
+      class="col-sm-6 col-lg-4 mb-4"
+      style="position: absolute; left: 66.6667%; top: 0px"
+    >
+      <div class="card">
+        <svg
+          class="bd-placeholder-img card-img-top"
+          width="100%"
+          height="200"
+          xmlns="http://www.w3.org/2000/svg"
+          role="img"
+          aria-label="Placeholder: Image cap"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        >
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#868e96"></rect>
+          <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+        </svg>
 
-asdfas
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            This card has supporting text below as a natural lead-in to
+            additional content.
+          </p>
+          <p class="card-text">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="col-sm-6 col-lg-4 mb-4"
+      style="position: absolute; left: 33.3333%; top: 171px"
+    >
+      <div class="card bg-primary text-white text-center p-3">
+        <figure class="mb-0">
+          <blockquote class="blockquote">
+            <p>A well-known quote, contained in a blockquote element.</p>
+          </blockquote>
+          <figcaption class="blockquote-footer mb-0 text-white">
+            Someone famous in <cite title="Source Title">Source Title</cite>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+    <div
+      class="col-sm-6 col-lg-4 mb-4"
+      style="position: absolute; left: 33.3333%; top: 310px"
+    >
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            This card has a regular title and short paragraph of text below it.
+          </p>
+          <p class="card-text">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="col-sm-6 col-lg-4 mb-4"
+      style="position: absolute; left: 0%; top: 362px"
+    >
+      <div class="card">
+        <svg
+          class="bd-placeholder-img card-img"
+          width="100%"
+          height="260"
+          xmlns="http://www.w3.org/2000/svg"
+          role="img"
+          aria-label="Placeholder: Card image"
+          preserveAspectRatio="xMidYMid slice"
+          focusable="false"
+        >
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#868e96"></rect>
+          <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Card image</text>
+        </svg>
+      </div>
+    </div>
+    <div
+      class="col-sm-6 col-lg-4 mb-4"
+      style="position: absolute; left: 66.6667%; top: 378px"
+    >
+      <div class="card p-3 text-end">
+        <figure class="mb-0">
+          <blockquote class="blockquote">
+            <p>A well-known quote, contained in a blockquote element.</p>
+          </blockquote>
+          <figcaption class="blockquote-footer mb-0 text-muted">
+            Someone famous in <cite title="Source Title">Source Title</cite>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+    <div
+      class="col-sm-6 col-lg-4 mb-4"
+      style="position: absolute; left: 33.3333%; top: 488px"
+    >
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            This is another card with title and supporting text below. This card
+            has some additional content to make it slightly taller overall.
+          </p>
+          <p class="card-text">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
