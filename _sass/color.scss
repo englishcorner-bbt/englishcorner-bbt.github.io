@@ -6,6 +6,8 @@ $orange: #ff8000;
 $yellow: #ffdc5e;
 $black: #0b0b0b;
 $white: #ffffff;
+$red: oklch(66.31% 0.218 37.73);
+$red-dark: oklch(50% 0.218 37.73);
 
 .green {
   color: $green-text;
@@ -16,7 +18,7 @@ $white: #ffffff;
 }
 
 .red {
-  color: #fb4f00;
+  color: $red;
 }
 
 .yellow {
@@ -46,5 +48,10 @@ $white: #ffffff;
 
 .bg-green {
   background-color: $green-bg;
+  color: $white;
+}
+
+.bg-red {
+  background-color: $red;
   color: $white;
 }
