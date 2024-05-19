@@ -1,7 +1,7 @@
 title: Your awesome title
 email: your-email@example.com
 phone: +66-083-236-0009
-phone-short: 083-236-0009
+phone_short: 083-236-0009
 facebook: https://www.facebook.com/englishcorner.bangbuathong
 line: https://lin.ee/A0eizei
 description: >- # this means to ignore newlines until "baseurl:"

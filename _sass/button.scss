@@ -1,0 +1,32 @@
+:root {
+  --orange-color: oklch(66.31% 0.218 37.73);
+  --orange-color-hover: oklch(50% 0.218 37.73);
+}
+
+.btn-orange {
+  color: #fff; /* Text color */
+  background-color: var(--orange-color); /* Background color */
+  border-color: var(--orange-color); /* Border color */
+}
+
+.btn-orange:hover,
+.btn-orange:focus,
+.btn-orange:active,
+.btn-orange.active,
+.btn-orange:active:focus,
+.btn-orange:active:hover,
+.btn-orange.active:focus,
+.btn-orange.active:hover {
+  color: #fff;
+  background-color: var(
+    --orange-color-hover
+  ); /* Background color on hover/focus/active */
+  border-color: var(
+    --orange-color-hover
+  ); /* Border color on hover/focus/active */
+}
+
+.btn-orange:disabled {
+  background-color: var(--orange-color); /* Background color when disabled */
+  border-color: var(--orange-color); /* Border color when disabled */
+}
