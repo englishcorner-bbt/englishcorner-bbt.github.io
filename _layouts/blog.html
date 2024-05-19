@@ -11,10 +11,15 @@
     {% seo %}
   </head>
   <body>
-    {% include navbar.html %}
-    {{ content }}
-    {% include footer.html %}
-    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+    <div class="wraper d-flex flex-column">
+      {% include navbar.html %}
+      <div class="container max-width mt-4 mt-lg-5 p-2 p-md-2">
+        {{ content }}
+      </div>
+      <div class="mt-auto">
+        {% include footer.html %}
+      </div>
+    </div>"
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
