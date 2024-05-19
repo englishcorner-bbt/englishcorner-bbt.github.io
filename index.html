@@ -6,3 +6,25 @@ description: 'English corner website'
 
 {% include banner.html %} {% include course.html %} {% include environment.html
 %}
+
+<div class="container max-width mt-3 mt-md-5 mb-5">
+  <div
+    class="d-flex flex-row py-3 px-3 px-md-5 bg-yellow rounded-3 strong-shadow justify-content-center gap-1 gap-md-5"
+    style="width: 100%"
+    onclick="window.location.href='{{site.line}}';"
+  >
+    <div class="d-flex align-items-center fw-bold fs-4">
+      ทดลองเรียน และ ทดสอบวัดระดับ ฟรี 🌈
+    </div>
+    <div class="d-flex">
+      <a
+        type="button"
+        class="d-flex btn btn-orange gap-2 align-items-center"
+        onclick="window.location.href='{{ site.line}}'"
+      >
+        <i class="bi bi-line"></i>
+        ทักทาย
+      </a>
+    </div>
+  </div>
+</div>
