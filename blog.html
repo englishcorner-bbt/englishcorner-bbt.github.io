@@ -5,27 +5,31 @@ permalink: blog
 ---
 
 <div
-  class="portfolio d-flex flex-wrap justify-content-start align-items-center"
+  class="container d-flex flex-column max-width align-items-center my-5"
+  sytle="width: 100%;"
 >
-  {% for post in site.posts %}
-  <div class="card">
-    <a href="{{ post.url }}">
-      <img
-        src="assets/image/{{ post.image }}"
-        class="card-img-top"
-        alt="image show example of project {{ post.title }}"
-      />
-    </a>
-    <div class="d-flex flex-column card-body">
-      <h5 class="card-title">
-        <a href="{{ post.url }}"> {{ post.title }} </a>
-      </h5>
-      <p class="flex-fill card-text">{{ post.description }}</p>
-      <a href="{{ post.url }}">
-        More detail
-        <span class="material-icons"> navigate_next </span>
-      </a>
+  <h6 class="blog-card d-flex align-content-start my-3 px-3 red">
+    บทความทั้งหมด
+  </h6>
+  <div class="d-flex flex-column gap-2 align-items-center">
+    {% for post in site.posts %}
+    <div class="blog-card line">&nbsp;</div>
+    <div class="blog-card d-flex flex-row">
+      <div class="d-flex flex-column flex-fill p-3">
+        <strong class="d-inline-block mb-2 green">{{ post.categories }}</strong>
+        <h3 class="mb-0">{{ post.title }}</h3>
+        <div class="mb-1 text-muted">{{post.date | date: "%b %-d, %Y"}}</div>
+        <p class="card-text mb-auto">{{post.description}}</p>
+        <a href="{{post.url}}" class="mt-2">Continue reading</a>
+      </div>
+      <div class="d-none d-md-block mt-5">
+        <img
+          src="/assets/image/blog/{{post.cover_image}}"
+          height="128"
+          width="128"
+        />
+      </div>
     </div>
+    {% endfor %}
   </div>
-  {% endfor %}
 </div>

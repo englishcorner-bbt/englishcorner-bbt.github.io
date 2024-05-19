@@ -1,36 +1,27 @@
 ---
 layout: blog
-title: 'Welcome to Jekyll!'
+title: 'วิธีการสอนเด็กประถมวัยให้เรียนรู้ภาษาอังกฤษอย่างมีความสุข'
 date: 2024-05-16 21:07:25 +0700
-categories: jekyll update
+categories: parenting
+cover_image: 'b1_cover_image.png'
+description:
+  การสอนให้เด็กจดจำและมีความสุขกับการเรียนรู้นั้นเป็นเรื่องที่ท้าทายไม่น้อย นั่นเป็นเหตุผลที่เราควรใช้ประโยชน์จากความรู้ด้านวิทยาศาสตร์สมองมาช่วยในการออกแบบกิจกรรมการเรียนการสอน
 ---
 
-# Welcome to Jekyll!
+ยินดีต้อนรับสู่บล็อกของเรานะคะ วันนี้เราจะมาพูดถึงวิธีการสอนเด็กประถมวัยให้เรียนรู้ภาษาอังกฤษอย่างมีความสุขและจดจำได้ดีโดยใช้หลักการทางวิทยาศาสตร์ของสมอง เตรียมพร้อมแล้วหรือยัง? เรามาเริ่มกันเลย!
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and
-re-build the site to see your changes. You can rebuild the site in many
-different ways, but the most common way is to run `jekyll serve`, which launches
-a web server and auto-regenerates your site when a file is updated.
+เราทุกคนรู้ดีว่าการเรียนรู้ภาษาใหม่ในวัยเด็กนั้นมีความสำคัญอย่างยิ่ง มันเปรียบเสมือนการวางรากฐานที่มั่นคงสำหรับอนาคต แต่การสอนให้เด็กจดจำและมีความสุขกับการเรียนรู้นั้นเป็นเรื่องที่ท้าทายไม่น้อย นั่นเป็นเหตุผลที่เราควรใช้ประโยชน์จากความรู้ด้านวิทยาศาสตร์สมองมาช่วยในการออกแบบกิจกรรมการเรียนการสอน
 
-Jekyll requires blog post files to be named according to the following format:
+![ครูเล่นทายคำกับน้อง](/assets/image/blog/b1_content.png)
 
-`YEAR-MONTH-DAY-title.MARKUP`
+ครูแม่แก้วจะลองยกตัวอย่างกิจกรรมที่นำมาเล่นสนุกกับน้องๆ ได้นะคะ
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit
-numbers, and `MARKUP` is the file extension representing the format used in the
-file. After that, include the necessary front matter. Take a look at the source
-for this post to get an idea about how it works.
+1. เริ่มด้วยกิจกรรมร้องเพลง โดยครูอาจจะพูดว่า **“เรามาร้องเพลงและเต้นรำด้วยกันนะคะ”** เสียงดนตรีและการเคลื่อนไหวร่างกายนั้นช่วยกระตุ้นการผลิตสารโดพามีน ซึ่งจะเพิ่มความสนใจและความตั้งใจในการเรียนรู้ และยังช่วยให้สมองสามารถจดจำสิ่งต่างๆ ได้ง่ายขึ้นอีกด้วย ลองหาเพลงคำคล้องจองที่สนุกสนานและมีคำศัพท์ภาษาอังกฤษมาร้องรำกันสนุกๆ สิคะ 
 
-Jekyll also offers powerful support for code snippets:
+1. กิจกรรมถัดมาอาจจะเป็นการ **“เล่นทายคำ”** กิจกรรมนี้จะช่วยกระตุ้นการทำงานของสมองส่วนความคิดสร้างสรรค์และการแก้ปัญหา โดยให้เด็กๆ ลองทายจากคำพูดหรือการเคลื่อนไหวของคุณครู นอกจากจะสนุกแล้ว มันยังฝึกทักษะการสังเกต การคิดวิเคราะห์ และการสื่อสารอีกด้วย สลับกันกันทายนะคะ
 
-{% highlight ruby %} def print_hi(name) puts "Hi, #{name}" end print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT. {% endhighlight %}
+1. และอาจจะปิดท้ายด้วย **“เกมจับคู่ภาพและคำศัพท์”** กิจกรรมนี้ช่วยเสริมสร้างความเชื่อมโยงระหว่างภาพกับคำศัพท์ในสมอง ทำให้เด็กๆ จดจำคำศัพท์ได้ง่ายขึ้น การมองเห็นภาพประกอบช่วยกระตุ้นการทำงานของสมองส่วนการมองเห็นและการจดจำ เรียนรู้ไปพร้อมๆ กับความสนุกสนานกันเลยนะคะ
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most
-out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub
-repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll
-Talk][jekyll-talk].
+เราต้องย้ำในใจว่าการเรียนรู้ภาษาใหม่เป็นเรื่องท้าทายสำหรับเด็กๆ แต่ด้วยวิธีการสอนที่เหมาะสม เราสามารถทำให้มันกลายเป็นประสบการณ์ที่น่าตื่นเต้นและสนุกสนาน เมื่อใช้หลักการทางวิทยาศาสตร์สมองมาผสมผสานกับกิจกรรมแบบมีส่วนร่วม บรรยากาศแห่งความสนุกสนาน และสื่อการสอนที่น่าสนใจ เด็กๆ จะรักภาษาอังกฤษและจดจำได้อย่างแม่นยำ
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+ไม่มีอะไรน่าภาคภูมิใจไปกว่าการได้เป็นส่วนหนึ่งในการสร้างรากฐานที่แข็งแกร่งให้กับเด็กๆ ด้วยการสอนภาษาที่สองอย่างภาษาอังกฤษ ลูกศิษย์ของคุณจะได้นำความรู้ไปใช้สร้างโอกาสใหม่ๆ ในชีวิต ดังนั้น อย่าลังเลใจอีกต่อไป จงหยิบกายวิธีการสอนเหล่านี้ไปใช้ และมอบประสบการณ์ที่ยอดเยี่ยมให้เด็กๆ กันเถอะนะคะ

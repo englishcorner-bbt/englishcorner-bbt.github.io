@@ -1,96 +1,25 @@
 ---
 layout: blog
-title: 'Welcome to Jekyll! 2'
+title: '5 หลักสำคัญในการสอนภาษาอังกฤษให้จดจำได้และมีความสุข'
 date: 2024-05-17 21:07:25 +0700
-categories: jekyll update
+categories: teaching
+cover_image: 'b1_cover_image.png'
+description:
+  หลักสำคัญในการสอนภาษาอังกฤษให้กับเด็กๆ โดยการผสมผสานความสนุกสนาน การเคลื่อนไหว สื่อการสอน ความง่าย และการมีส่วนร่วม เพื่อสร้างประสบการณ์การเรียนรู้ที่น่าประทับใจและสร้างแรงบันดาลใจให้กับผู้เรียนได้อย่างยั่งยืน
 ---
 
-# Welcome to Jekyll!
+การเรียนรู้ภาษาใหม่เป็นประสบการณ์ที่น่าตื่นเต้นและท้าทายสำหรับเด็กๆ การฝึกฝนอย่างสม่ำเสมอด้วยวิธีการสอนที่สนุกสนานและเหมาะสมกับวัย จะช่วยให้พวกเขาพัฒนาทักษะทางภาษาได้อย่างมีประสิทธิภาพมากขึ้น ไม่เพียงแต่ทำให้กระบวนการเรียนรู้น่าสนใจยิ่งขึ้นเท่านั้น แต่ยังส่งเสริมให้เด็กๆ รักและหลงใหลในการเรียนรู้ด้วย เมื่อกิจกรรมการเรียนมีความหลากหลาย น่าสนุก และมีการมีส่วนร่วม เด็กๆ จะไม่รู้สึกว่ากำลังถูกบังคับให้เรียน แต่กลับรู้สึกตื่นเต้นที่จะได้เพลิดเพลินกับกิจกรรมต่างๆ
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and
-re-build the site to see your changes. You can rebuild the site in many
-different ways, but the most common way is to run `jekyll serve`, which launches
-a web server and auto-regenerates your site when a file is updated.
+บทความนี้จะนำเสนอหลัก 5 ประการสำคัญในการสอนภาษาอังกฤษให้กับเด็กๆเมื่อนำหลักการเหล่านี้ไปใช้อย่างถูกต้อง คุณจะเห็นว่าเด็กๆ มีความสุข กระตือรือร้น และจดจำได้ดียิ่งขึ้น
 
-Jekyll requires blog post files to be named according to the following format:
+1. ความสนุกสนาน: ร้องเพลง เต้นรำ กิจกรรมที่มีความสนุกสนานจะกระตุ้นให้สมองผลิตสารโดพามีน ช่วยเพิ่มความสนใจและความจำที่ดีขึ้น
 
-`YEAR-MONTH-DAY-title.MARKUP`
+2. การเคลื่อนไหวร่างกาย: เล่นเกมทายท่าทาง กิจกรรมที่มีการเคลื่อนไหวร่างกายจะช่วยกระตุ้นการทำงานของสมองส่วนความคิดสร้างสรรค์และแก้ปัญหา
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit
-numbers, and `MARKUP` is the file extension representing the format used in the
-file. After that, include the necessary front matter. Take a look at the source
-for this post to get an idea about how it works.
+3. การใช้สื่อประกอบ: เล่นเกมจับคู่ภาพกับคำศัพท์ การใช้ภาพประกอบจะกระตุ้นสมองส่วนการมองเห็นและการจดจำ ทำให้เด็กเชื่อมโยงและจดจำคำศัพท์ได้ง่ายขึ้น
 
-Jekyll also offers powerful support for code snippets:
+4. ความง่ายและสั้น: ใช้เนื้อหาสั้นๆ ง่ายๆ เหมาะกับระดับของเด็ก เน้นคำศัพท์และประโยคพื้นฐาน ไม่ควรยากเกินไปจนทำให้เด็กเบื่อ
 
-{% highlight ruby %} def print_hi(name) puts "Hi, #{name}" end print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT. {% endhighlight %}
+5. การมีส่วนร่วม: ให้เด็กๆ ได้มีส่วนร่วมในกิจกรรมอย่างกระตือรือร้น ทั้งร้องเพลง เคลื่อนไหว และแสดงออก การมีส่วนร่วมจะทำให้เด็กตั้งใจและจดจำได้ดีขึ้น
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most
-out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub
-repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll
-Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
-
-# Welcome to Jekyll!
-
-You’ll find this post in your `_posts` directory. Go ahead and edit it and
-re-build the site to see your changes. You can rebuild the site in many
-different ways, but the most common way is to run `jekyll serve`, which launches
-a web server and auto-regenerates your site when a file is updated.
-
-Jekyll requires blog post files to be named according to the following format:
-
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit
-numbers, and `MARKUP` is the file extension representing the format used in the
-file. After that, include the necessary front matter. Take a look at the source
-for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %} def print_hi(name) puts "Hi, #{name}" end print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT. {% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most
-out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub
-repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll
-Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
-
-# Welcome to Jekyll!
-
-You’ll find this post in your `_posts` directory. Go ahead and edit it and
-re-build the site to see your changes. You can rebuild the site in many
-different ways, but the most common way is to run `jekyll serve`, which launches
-a web server and auto-regenerates your site when a file is updated.
-
-Jekyll requires blog post files to be named according to the following format:
-
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit
-numbers, and `MARKUP` is the file extension representing the format used in the
-file. After that, include the necessary front matter. Take a look at the source
-for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %} def print_hi(name) puts "Hi, #{name}" end print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT. {% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most
-out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub
-repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll
-Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+อย่ากลัวที่จะคิดนอกกรอบและลองทำสิ่งใหม่ๆ ทุกวันเป็นโอกาสที่จะค้นพบวิธีการสอนที่โดนใจเด็กๆ เมื่อคุณหาวิธีที่เหมาะสมแล้ว คุณจะได้เห็นรอยยิ้มและประกายในดวงตาของพวกเขา นั่นคือสัญญาณว่าคุณประสบความสำเร็จในการสอน
