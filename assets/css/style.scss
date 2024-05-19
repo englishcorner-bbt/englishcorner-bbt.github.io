@@ -13,6 +13,7 @@ $base-shadow: 0px 0px 50px rgba(0, 0, 0, 0.15);
 @import 'color';
 
 @import 'course';
+@import 'footer';
 
 body {
   display: flex;
@@ -104,7 +105,7 @@ a,
   .rounded-lg-4 {
     border-radius: 1rem !important; /* 1.5rem = 24px (rounded-4) */
   }
-  /* Bootstrap's 'lg' breakpoint starts at 992px */
+
   .rounded-lg-bottom-4 {
     border-bottom-left-radius: 1rem !important; /* 1.5rem = 24px (rounded-4) */
     border-bottom-right-radius: 1rem !important;

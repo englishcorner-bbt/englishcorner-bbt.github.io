@@ -1,54 +1,44 @@
 <footer
-  class="container max-width pt-4 mt-md-5 pt-md-5 border-top rounded-lg-top-4 bg-red"
+  class="container max-width pt-4 px-md-5 mt-md-5 pt-md-5 border-top rounded-lg-top-4 bg-red pb-3 rounded-lg-top-4"
 >
   <div class="row">
-    <div class="col-12 col-md">
-      <small class="d-block mb-3 text-muted">© 2024 - beyond</small>
-    </div>
-    <div class="col-6 col-md">
-      <h5>สนใจคอร์สเรียน</h5>
-      <ul class="list-unstyled text-small">
-        <li class="mb-1">
-          <a class="link-secondary text-decoration-none" href="#"
-            >Random feature</a
-          >
+    <div class="col-12 col-md-8">
+      <p role="heading" aria-level="2">สนใจคอร์สเรียน</p>
+      <ul class="d-flex flex-column gap-2 list-unstyled">
+        <li class="fs-3">
+          <a class="link-light text-decoration-none" href="tel: {{site.phone}}">
+            <i class="bi bi-phone-fill"></i>
+            {{site.phone-short}}
+          </a>
         </li>
-        <li class="mb-1">
-          <a class="link-secondary text-decoration-none" href="#"
-            >Team feature</a
+        <li class="">
+          <a
+            class="d-flex link-light text-decoration-none align-items-center gap-2"
+            href="{{site.facebook}}"
           >
+            <i class="bi bi-facebook fs-3"></i>
+            Facebook.com/englishcorner.bangbuathong
+          </a>
         </li>
-        <li class="mb-1">
-          <a class="link-secondary text-decoration-none" href="#"
-            >Stuff for developers</a
+        <li class="">
+          <a
+            class="d-flex link-light text-decoration-none align-items-center gap-2"
+            href="{{site.line}}"
           >
-        </li>
-        <li class="mb-1">
-          <a class="link-secondary text-decoration-none" href="#"
-            >Another one</a
-          >
-        </li>
-        <li class="mb-1">
-          <a class="link-secondary text-decoration-none" href="#">Last time</a>
+            <i class="bi bi-line fs-3"></i>
+            @englishcorner.bbt
+          </a>
         </li>
       </ul>
     </div>
-    <div class="col-6 col-md">
-      <h5>Office</h5>
-      <ul class="list-unstyled text-small">
-        <li class="mb-1">
-          <a class="link-secondary text-decoration-none" href="#">Team</a>
-        </li>
-        <li class="mb-1">
-          <a class="link-secondary text-decoration-none" href="#">Locations</a>
-        </li>
-        <li class="mb-1">
-          <a class="link-secondary text-decoration-none" href="#">Privacy</a>
-        </li>
-        <li class="mb-1">
-          <a class="link-secondary text-decoration-none" href="#">Terms</a>
-        </li>
-      </ul>
+    <div class="col-12 py-4 pt-md-0 col-md-4">
+      <p role="heading" aria-level="2">ที่อยู่</p>
+      <p class="mb-2">
+        ชั้น 2, แจส กรีน วิลเลจ, <br />
+        ซอยวัดลาดปลาดุก, ตำบล พิมลราช, <br />
+        อำเภอ บางบัวทอง, จังหวัด นนทบุรี
+      </p>
+      <p>11110</p>
     </div>
   </div>
 </footer>
