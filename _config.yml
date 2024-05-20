@@ -4,14 +4,22 @@ phone: +66-083-236-0009
 phone_short: 083-236-0009
 facebook: https://www.facebook.com/englishcorner.bangbuathong
 line: https://lin.ee/A0eizei
+logo: /assets/image/logo/logo_english.png
+social:
+  name: English Corner
+  links:
+    - https://www.facebook.com/englishcorner.bangbuathong
+
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this line in
-  _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+  Discover English Corner in Bang Bua Thong, where children learn through fun,
+  brain-science-based activities. Our curriculum combines hands-on activities,
+  math problem-solving, and storytelling to foster a love for learning. Taught
+  by native English speakers, our classes ensure an engaging and effective
+  educational experience. We offer free trial classes and assessments to help
+  you get started. Visit us to see how we make learning enjoyable and impactful
+  for your child.
 baseurl: '' # the subpath of your site, e.g. /blog
 url: '' # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username: jekyll
 
 sass:
   sass_dir: _sass
