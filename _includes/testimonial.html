@@ -1,0 +1,22 @@
+<div
+  class="container max-width mt-4 mt-lg-5 py-2 py-md-2 px-3 px-md-4"
+  style="width: 100%"
+>
+  <div class="d-flex flex-row flex-wrap gap-2">
+    {% for item in site.data.testimonial %}
+    <div
+      class="flex-fill d-flex flex-column align-items-center bg-info py-2 rounded-2"
+    >
+      <img
+        src="/assets/image/testimonial/{{ item.image }}"
+        class="img-fluid rounded-3"
+        width="100px"
+        height="100px"
+        alt="testimonial"
+      />
+      <p>{{ item.description }}</p>
+      <p>{{ item.name }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</div>
