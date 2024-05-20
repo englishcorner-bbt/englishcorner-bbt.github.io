@@ -1,21 +1,23 @@
 <div
-  class="container max-width mt-4 mt-lg-5 py-2 py-md-2 px-3 px-md-4"
+  class="container max-width mb-5 mt-lg-5 py-2 px-3 px-md-4"
   style="width: 100%"
 >
-  <div class="d-flex flex-row flex-wrap gap-2">
+  <h3 class="text-center red my-4">น้องๆ ที่มาเรียนบอกว่า</h3>
+  <div class="d-flex flex-row flex-wrap gap-3 justify-content-center">
     {% for item in site.data.testimonial %}
     <div
-      class="flex-fill d-flex flex-column align-items-center bg-info py-2 rounded-2"
+      class="testimonial flex-fill d-flex flex-row justify-content-center px-4 py-4 rounded-2 gap-3 gap-md-4"
     >
       <img
         src="/assets/image/testimonial/{{ item.image }}"
-        class="img-fluid rounded-3"
         width="100px"
         height="100px"
         alt="testimonial"
       />
-      <p>{{ item.description }}</p>
-      <p>{{ item.name }}</p>
+      <div class="d-flex flex-column">
+        <p class="py-1 my-0 text-start fst-italic">"{{ item.description }}"</p>
+        <p class="py-1 my-0 text-start fst-italic black">- {{ item.name }}</p>
+      </div>
     </div>
     {% endfor %}
   </div>

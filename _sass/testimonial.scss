@@ -1,0 +1,22 @@
+.testimonial {
+  background-color: #efefef;
+  color: #666;
+
+  img {
+    border-radius: 50%;
+  }
+}
+
+@media screen {
+}
+@media (min-width: 768px) {
+  .testimonial {
+    max-width: 361px;
+  }
+}
+
+@media (min-width: 992px) {
+  .testimonial {
+    max-width: 400px;
+  }
+}
