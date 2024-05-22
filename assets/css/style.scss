@@ -18,6 +18,54 @@ $base-shadow: 0px 0px 50px rgba(0, 0, 0, 0.15);
 @import 'blog';
 @import 'button';
 @import 'testimonial';
+@import 'banner';
+
+.green {
+  color: $green-text;
+}
+
+.orange {
+  color: $orange;
+}
+
+.red {
+  color: $red;
+}
+
+.yellow {
+  color: $yellow;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.black {
+  color: $black;
+}
+
+.facebook-color {
+  color: #376df9;
+}
+
+.line-color {
+  color: #389c28;
+}
+
+.bg-yellow {
+  background-color: $yellow;
+  color: $black;
+}
+
+.bg-green {
+  background-color: $green-bg;
+  color: $white;
+}
+
+.bg-red {
+  background-color: $red;
+  color: $white;
+}
 
 body {
   display: flex;
@@ -43,12 +91,6 @@ a,
 
 .clickable {
   cursor: pointer;
-}
-
-.banner-bg {
-  background-color: #118f83;
-  background-size: cover;
-  background-position: bottom center;
 }
 
 .small-hr {
@@ -77,44 +119,7 @@ a,
   margin-top: 180px;
 }
 
-.banner-sm-fg {
-  background-image: url('/assets/image/banner_sm_fg.png');
-  background-size: cover;
-  height: 280px;
-}
-
-@media (min-width: 768px) {
-  .banner-sm-fg {
-    background: none;
-    height: 170px;
-  }
-  .banner-bg {
-    background-image: url('/assets/image/banner_md.png');
-    background-position: top center;
-  }
-  .yellow-button {
-    width: fit-content;
-    margin-top: 20px;
-  }
-  .banner-description {
-    font-size: 1.3rem;
-    line-height: 1.5;
-  }
-}
-
 @media (min-width: 992px) {
-  .banner-sm-fg {
-    height: 170px;
-  }
-  .rounded-lg-4 {
-    border-radius: 1rem !important; /* 1.5rem = 24px (rounded-4) */
-  }
-
-  .rounded-lg-bottom-4 {
-    border-bottom-left-radius: 1rem !important; /* 1.5rem = 24px (rounded-4) */
-    border-bottom-right-radius: 1rem !important;
-  }
-
   .shadow-md-sm {
     box-shadow: var(--bs-box-shadow) !important;
   }

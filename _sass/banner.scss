@@ -1,0 +1,53 @@
+@import 'color';
+
+.banner {
+  H1 {
+    font-size: 2rem;
+  }
+}
+
+.banner-bg {
+  background-color: #118f83;
+  color: $white;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.banner-sm-fg {
+  background-image: url('/assets/image/banner_sm_fg.png');
+  background-size: cover;
+  height: 280px;
+}
+
+@media (min-width: 768px) {
+  .banner-sm-fg {
+    background: none;
+    height: 170px;
+  }
+  .banner-bg {
+    background-image: url('/assets/image/banner_md.png');
+    background-position: top center;
+  }
+  .yellow-button {
+    width: fit-content;
+    margin-top: 20px;
+  }
+  .banner-description {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 992px) {
+  .banner-sm-fg {
+    height: 170px;
+  }
+  .rounded-lg-4 {
+    border-radius: 1rem !important; /* 1.5rem = 24px (rounded-4) */
+  }
+
+  .rounded-lg-bottom-4 {
+    border-bottom-left-radius: 1rem !important; /* 1.5rem = 24px (rounded-4) */
+    border-bottom-right-radius: 1rem !important;
+  }
+}
