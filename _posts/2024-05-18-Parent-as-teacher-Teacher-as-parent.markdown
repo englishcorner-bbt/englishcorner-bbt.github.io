@@ -3,7 +3,7 @@ layout: blog
 title: 'เป็นพ่อแม่ในฐานนะครู เป็นครูที่มีหัวใจพ่อแม่'
 date: 2024-05-18 21:07:25 +0700
 categories: parenting
-cover_image: 'b3_cover_image.jpg'
+image: 'b3_cover_image.jpg'
 description:
   พ่อแม่ต้องเป็นครู ครูต้องมีหัวใจพ่อแม่
   รู้ไหมว่าวิธีไหนที่จะทำให้ลูกของคุณเติบโตอย่างสมบูรณ์แบบ?
