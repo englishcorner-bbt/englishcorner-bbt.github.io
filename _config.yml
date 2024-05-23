@@ -1,5 +1,5 @@
-title: Your awesome title
-email: your-email@example.com
+title: English Corner - Fun and Effective Learning for Kids in Bangbuathong
+email: englishcorner.bbt@gmail.com
 phone: +66-083-236-0009
 phone_short: 083-236-0009
 facebook: https://www.facebook.com/englishcorner.bangbuathong
@@ -9,15 +9,16 @@ social:
   name: English Corner
   links:
     - https://www.facebook.com/englishcorner.bangbuathong
+google_analytics: G-WFMNYDS086
 
-description: >- # this means to ignore newlines until "baseurl:"
-  Discover English Corner in Bang Bua Thong, where children learn through fun,
-  brain-science-based activities. Our curriculum combines hands-on activities,
-  math problem-solving, and storytelling to foster a love for learning. Taught
-  by native English speakers, our classes ensure an engaging and effective
-  educational experience. We offer free trial classes and assessments to help
-  you get started. Visit us to see how we make learning enjoyable and impactful
-  for your child.
+tagline: >-
+  English Corner สถาบันสอนภาษาอังกฤษสำหรับเด็ก หลักสูตร Arts, Math, English และ
+  Phonics เน้นกิจกรรมสนุก เรียนรู้ผ่านกิจกรรม ครูต่างชาติที่มีประสบการณ์
+  สาขาบางบัวทอง
+description: >-
+  English Corner สถาบันสอนภาษาอังกฤษสำหรับเด็ก หลักสูตร Arts, Math, English และ
+  Phonics เน้นกิจกรรมสนุก เรียนรู้ผ่านกิจกรรม ครูต่างชาติที่มีประสบการณ์
+  สาขาบางบัวทอง
 baseurl: '' # the subpath of your site, e.g. /blog
 url: '' # the base hostname & protocol for your site, e.g. http://example.com
 
