@@ -1,6 +1,6 @@
 @import 'color';
 
-@keyframes rotate {
+@keyframes opacity {
   from {
     opacity: 0.6;
   }
@@ -10,7 +10,7 @@
 }
 
 .card {
-  animation: rotate ease-in;
+  animation: opacity linear;
   animation-timeline: view();
   animation-range: entry 10% cover 40%;
 }
