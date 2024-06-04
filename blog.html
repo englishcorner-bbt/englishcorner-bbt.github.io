@@ -17,14 +17,14 @@ permalink: blog
     <div class="blog-card d-flex flex-row">
       <div class="d-flex flex-column flex-fill p-3">
         <strong class="d-inline-block mb-2 green">{{ post.categories }}</strong>
-        <h3
+        <h4
           class="mb-0"
           style="cursor: pointer"
           onclick="window.open('{{post.url}}')"
         >
           {{post.title}}
         </h3>
-        <div class="mb-1 text-muted">{{post.date | date: "%-d %b %Y"}}</div>
+        <div class="mb-1" style="color: oklch(0.70 0 0);">{{post.date | date: "%-d %b %Y"}}</div>
         <p class="card-text mb-auto">{{post.description}}</p>
         <a href="{{post.url}}" class="mt-2">Continue reading</a>
       </div>

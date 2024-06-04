@@ -29,5 +29,4 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
-future: true
+# future: true
