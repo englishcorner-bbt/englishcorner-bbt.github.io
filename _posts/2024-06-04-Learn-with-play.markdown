@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: 'เปิดประตูสู่โลกแห่งการเรียนรู้ด้วยกิจกรรมเพลย์เบส'
-date: 2024-5-19
+date: 2024-6-04
 categories: parenting
 image: 'b4_cover_image.jpg'
 description:

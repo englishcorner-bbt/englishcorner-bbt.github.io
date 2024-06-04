@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: 'เป็นพ่อแม่ในฐานนะครู เป็นครูที่มีหัวใจพ่อแม่'
-date: 2024-05-18 21:07:25 +0700
+date: 2024-05-07 21:07:25 +0700
 categories: parenting
 image: 'b3_cover_image.jpg'
 description:
