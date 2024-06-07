@@ -2,7 +2,7 @@ title: English Corner - Fun and Effective Learning for Kids in Bangbuathong
 email: englishcorner.bbt@gmail.com
 phone: +66-083-236-0009
 phone_short: 083-236-0009
-facebook: https://www.facebook.com/englishcorner.bangbuathong
+# facebook: https://www.facebook.com/englishcorner.bangbuathong
 line: https://lin.ee/A0eizei
 logo: /assets/image/logo/logo_english.png
 social:
@@ -10,6 +10,11 @@ social:
   links:
     - https://www.facebook.com/englishcorner.bangbuathong
 google_analytics: G-WFMNYDS086
+
+facebook:
+  app_id: 1433908263920806
+  publisher: https://www.facebook.com/englishcorner.bangbuathong
+  admins: 163648161199503
 
 tagline: >-
   English Corner สถาบันสอนภาษาอังกฤษสำหรับเด็ก หลักสูตร Arts, Math, English และ
