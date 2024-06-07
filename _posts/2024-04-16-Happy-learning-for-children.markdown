@@ -2,7 +2,7 @@
 layout: blog
 title: 'วิธีการสอนเด็กประถมวัยให้เรียนรู้ภาษาอังกฤษอย่างมีความสุข'
 date: 2024-04-16 21:07:25 +0700
-categories: parenting
+categories: teaching
 image: 'b1_cover_image.png'
 description:
   การสอนให้เด็กจดจำและมีความสุขกับการเรียนรู้นั้นเป็นเรื่องที่ท้าทายไม่น้อย

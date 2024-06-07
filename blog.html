@@ -8,15 +8,17 @@ permalink: blog
   class="container d-flex flex-column max-width align-items-center my-5"
   sytle="width: 100%;"
 >
-  <h6 class="blog-card d-flex align-content-start my-3 px-3 red">
+  <h6 class="blog-card d-flex align-content-start my-3 px-3">
     บทความทั้งหมด
   </h6>
   <div class="d-flex flex-column gap-2 align-items-center">
     {% for post in site.posts %}
-    <div class="blog-card line">&nbsp;</div>
-    <div class="blog-card d-flex flex-row">
-      <div class="d-flex flex-column flex-fill p-3">
-        <strong class="d-inline-block mb-2 green">{{ post.categories }}</strong>
+    <!-- <div class="blog-card line">&nbsp;</div> -->
+    <div class="blog-card d-flex flex-row mb-4">
+      <div class="d-flex flex-column flex-fill p-3 gap-2">
+        <strong class="d-inline-block mb-2 {{post.categories}}">
+          {{post.categories}}
+        </strong>
         <h4
           class="mb-0"
           style="cursor: pointer"
