@@ -3,7 +3,8 @@ layout: blog
 title: '5 หลักสำคัญในการสอนภาษาอังกฤษให้จดจำได้และมีความสุข'
 date: 2024-05-17 21:07:25 +0700
 categories: teaching
-image: 'b2_cover_image.jpg'
+image: 'https://englishcorner-bbt.com/assets/image/blog/b2_content.jpg'
+image_square: 'b2_cover_image.jpg'
 description:
   หลักสำคัญในการสอนภาษาอังกฤษให้กับเด็กๆ โดยการผสมผสานความสนุกสนาน การเคลื่อนไหว
   สื่อการสอน ความง่าย และการมีส่วนร่วม

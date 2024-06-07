@@ -3,7 +3,8 @@ layout: blog
 title: 'วิธีการสอนเด็กประถมวัยให้เรียนรู้ภาษาอังกฤษอย่างมีความสุข'
 date: 2024-04-16 21:07:25 +0700
 categories: teaching
-image: 'b1_cover_image.png'
+image: 'https://englishcorner-bbt.com/assets/image/blog/b1_content.png'
+image_square: 'b1_cover_image.png'
 description:
   การสอนให้เด็กจดจำและมีความสุขกับการเรียนรู้นั้นเป็นเรื่องที่ท้าทายไม่น้อย
   นั่นเป็นเหตุผลที่เราควรใช้ประโยชน์จากความรู้ด้านวิทยาศาสตร์สมองมาช่วยในการออกแบบกิจกรรมการเรียนการสอน

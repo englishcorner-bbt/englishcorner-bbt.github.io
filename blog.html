@@ -22,7 +22,7 @@ permalink: blog
         <h4
           class="mb-0"
           style="cursor: pointer"
-          onclick="window.open('{{post.url}}')"
+          onclick="window.open('{{post.url}}','_self')"
         >
           {{post.title}}
         </h3>
@@ -33,7 +33,7 @@ permalink: blog
       <a class="d-md-block mt-5" sytle="cursor: pointer" href="{{post.url}}">
         <img
           alt=""
-          src="/assets/image/blog/{{post.image}}"
+          src="/assets/image/blog/{{post.image_square}}"
           height="128"
           width="128"
         />
